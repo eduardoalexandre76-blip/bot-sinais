@@ -10,27 +10,48 @@
   "par": "EURUSD=X",
   "dir": "CALL",
   "entrada": 1.1129660606384277,
-  "resultado": null
+  "resultado": "GANHOU"
  },
  {
   "hora": "2026-10-27 20:30",
   "par": "GBPUSD=X",
   "dir": "CALL",
   "entrada": 1.3307782411575317,
-  "resultado": null
+  "resultado": "GANHOU"
  },
  {
   "hora": "2026-10-27 20:30",
   "par": "USDJPY=X",
   "dir": "PUT",
   "entrada": 157.9499969482422,
-  "resultado": null
+  "resultado": "GANHOU"
  },
  {
   "hora": "2026-10-27 20:30",
   "par": "AUDUSD=X",
   "dir": "CALL",
   "entrada": 0.7026419043540955,
+  "resultado": "GANHOU"
+ },
+ {
+  "hora": "2026-10-27 20:50",
+  "par": "EURUSD=X",
+  "dir": "CALL",
+  "entrada": 1.1127183437347412,
+  "resultado": null
+ },
+ {
+  "hora": "2026-10-27 20:50",
+  "par": "GBPUSD=X",
+  "dir": "CALL",
+  "entrada": 1.330477237701416,
+  "resultado": null
+ },
+ {
+  "hora": "2026-10-27 20:50",
+  "par": "USDJPY=X",
+  "dir": "PUT",
+  "entrada": 157.9550018310547,
   "resultado": null
  }
 ]
