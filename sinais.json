@@ -67,5 +67,13 @@
   "dir": "CALL",
   "entrada": 1.4045699834823608,
   "resultado": "GANHOU"
+ },
+ {
+  "hora": "2026-10-27 21:35",
+  "par": "GBPUSD=X",
+  "dir": "CALL",
+  "entrada": 1.3303532600402832,
+  "resultado": null,
+  "enviado": true
  }
 ]
