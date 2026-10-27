@@ -16,11 +16,15 @@ CHAT = os.environ["TELEGRAM_CHAT_ID"]
 
 
 def enviar(txt):
-    requests.post(
-        f"https://api.telegram.org/bot{TOKEN}/sendMessage",
-        data={"chat_id": CHAT, "text": txt},
-        timeout=20,
-    )
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{TOKEN}/sendMessage",
+            data={"chat_id": CHAT, "text": txt},
+            timeout=20,
+        )
+        print("telegram:", r.status_code, r.text[:200])
+    except Exception as ex:
+        print("erro telegram:", type(ex).__name__)
 
 
 def baixar(par):
@@ -79,6 +83,7 @@ for s in sinais:
         s["resultado"] = "SEM_DADOS"
 
 # 2) Procura novos sinais em cada par
+status = []
 for par, nome in PARES.items():
     df = dados.get(par)
     if df is None:
@@ -93,6 +98,7 @@ for par, nome in PARES.items():
     sup = ma + 1.5 * sd
     inf = ma - 1.5 * sd
 
+    status.append(f"{nome}: RSI {rsi.iloc[-1]:.0f}")
     hora = df.index[-1]
     direcao = None
     if rsi.iloc[-1] < 40 and c.iloc[-1] < inf.iloc[-1]:
@@ -112,6 +118,11 @@ for par, nome in PARES.items():
             f"Vela das {hora}\nPreco: {preco:.5f}\n"
             f"Expira em 5 min. (TESTE)"
         )
+
+print(status)
+if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+    enviar("Teste OK: o bot esta ligado e analisando.\n" + "\n".join(status)
+           + "\nSinal so sai quando RSI < 40 (compra) ou > 60 (venda) e o preco passa da banda.")
 
 # 3) Placar
 v = [s for s in sinais if s["resultado"] in ("GANHOU", "PERDEU")]
