@@ -59,13 +59,13 @@
   "par": "USDJPY=X",
   "dir": "CALL",
   "entrada": 157.875,
-  "resultado": null
+  "resultado": "GANHOU"
  },
  {
   "hora": "2026-10-27 21:00",
   "par": "USDCAD=X",
   "dir": "CALL",
   "entrada": 1.4045699834823608,
-  "resultado": null
+  "resultado": "GANHOU"
  }
 ]
