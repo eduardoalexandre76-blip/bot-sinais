@@ -13,6 +13,7 @@ ARQ = "sinais.json"
 FMT = "%Y-%m-%d %H:%M"
 TOKEN = os.environ["TELEGRAM_TOKEN"]
 CHAT = os.environ["TELEGRAM_CHAT_ID"]
+LINHA = "━━━━━━━━━━━━━━━"
 
 
 def enviar(txt):
@@ -23,8 +24,21 @@ def enviar(txt):
             timeout=20,
         )
         print("telegram:", r.status_code, r.text[:200])
+        return r.status_code == 200
     except Exception as ex:
         print("erro telegram:", type(ex).__name__)
+        return False
+
+
+def brt(h, mais=0):
+    """Converte o horario (UTC) para Brasilia."""
+    t = pd.Timestamp(h) + pd.Timedelta(minutes=mais)
+    t = t.tz_localize("UTC").tz_convert("America/Sao_Paulo")
+    return t.strftime("%H:%M")
+
+
+def nome_dir(d):
+    return "🟢 COMPRA (CALL) ⬆️" if d == "CALL" else "🔴 VENDA (PUT) ⬇️"
 
 
 def baixar(par):
@@ -34,7 +48,10 @@ def baixar(par):
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
     df = df.iloc[:-1]  # remove a vela ainda aberta
-    df.index = df.index.strftime(FMT)
+    idx = df.index
+    if idx.tz is not None:
+        idx = idx.tz_convert("UTC")
+    df.index = idx.strftime(FMT)
     return df
 
 
@@ -78,7 +95,15 @@ for s in sinais:
         else:
             r = "PERDEU"
         s["resultado"] = r
-        enviar(f"Resultado {PARES.get(par, par)} {s['dir']} das {s['hora']}: {r}")
+        if s.get("enviado"):
+            icone = {"GANHOU": "✅ GANHOU", "PERDEU": "❌ PERDEU", "EMPATE": "➖ EMPATE"}[r]
+            enviar(
+                f"{icone}\n{LINHA}\n"
+                f"💱 {PARES.get(par, par)}\n"
+                f"{nome_dir(s['dir'])}\n"
+                f"⏰ Entrada {brt(s['hora'], 5)} → expirou {brt(s['hora'], 10)}\n"
+                f"💰 {e:.5f} → {f:.5f}"
+            )
     elif t < ultima - pd.Timedelta(minutes=30):
         s["resultado"] = "SEM_DADOS"
 
@@ -111,24 +136,31 @@ for par, nome in PARES.items():
     )
     if direcao and not ja_enviado:
         preco = float(c.iloc[-1])
-        sinais.append({"hora": hora, "par": par, "dir": direcao,
-                       "entrada": preco, "resultado": None})
-        enviar(
-            f"SINAL {nome} 5min: {direcao}\n"
-            f"Vela das {hora}\nPreco: {preco:.5f}\n"
-            f"Expira em 5 min. (TESTE)"
+        ok = enviar(
+            f"📊 NOVO SINAL\n{LINHA}\n"
+            f"💱 Par: {nome}\n"
+            f"{nome_dir(direcao)}\n"
+            f"⏰ Entrada: {brt(hora, 5)} (Brasília)\n"
+            f"⌛ Expira: {brt(hora, 10)} (5 minutos)\n"
+            f"💰 Preço: {preco:.5f}\n"
+            f"{LINHA}\n"
+            f"⚠️ Teste: use conta demo."
         )
+        sinais.append({"hora": hora, "par": par, "dir": direcao,
+                       "entrada": preco, "resultado": None, "enviado": ok})
 
 print(status)
 if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
-    enviar("Teste OK: o bot esta ligado e analisando.\n" + "\n".join(status)
-           + "\nSinal so sai quando RSI < 40 (compra) ou > 60 (venda) e o preco passa da banda.")
+    enviar("✅ Bot ligado e analisando\n" + LINHA + "\n"
+           + "\n".join(status)
+           + "\n" + LINHA + "\nSinal sai quando RSI < 40 (compra) ou > 60 (venda) "
+           "e o preço passa da banda.")
 
-# 3) Placar
-v = [s for s in sinais if s["resultado"] in ("GANHOU", "PERDEU")]
+# 3) Placar (só conta sinais que chegaram no Telegram)
+v = [s for s in sinais if s.get("enviado") and s["resultado"] in ("GANHOU", "PERDEU")]
 g = sum(1 for s in v if s["resultado"] == "GANHOU")
 if v:
-    enviar(f"Placar: {g} ganhos / {len(v) - g} perdas "
-           f"({100 * g / len(v):.1f}% de acerto)")
+    taxa = f"{100 * g / len(v):.1f}".replace(".", ",")
+    enviar(f"📈 PLACAR\n{LINHA}\n✅ {g} ganhos  |  ❌ {len(v) - g} perdas\n🎯 {taxa}% de acerto")
 
 json.dump(sinais, open(ARQ, "w"), indent=1)
