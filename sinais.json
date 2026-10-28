@@ -99,5 +99,29 @@
   "entrada": 1.113089919090271,
   "resultado": null,
   "enviado": true
+ },
+ {
+  "hora": "2026-10-28 00:05",
+  "par": "USDJPY=X",
+  "dir": "CALL",
+  "entrada": 157.86900329589844,
+  "resultado": null,
+  "enviado": true
+ },
+ {
+  "hora": "2026-10-28 00:05",
+  "par": "AUDUSD=X",
+  "dir": "PUT",
+  "entrada": 0.7036307454109192,
+  "resultado": null,
+  "enviado": true
+ },
+ {
+  "hora": "2026-10-28 00:05",
+  "par": "USDCAD=X",
+  "dir": "CALL",
+  "entrada": 1.4042600393295288,
+  "resultado": null,
+  "enviado": true
  }
 ]
