@@ -97,7 +97,7 @@
   "par": "EURUSD=X",
   "dir": "CALL",
   "entrada": 1.113089919090271,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": true
  },
  {
@@ -105,7 +105,7 @@
   "par": "USDJPY=X",
   "dir": "CALL",
   "entrada": 157.86900329589844,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": true
  },
  {
@@ -113,7 +113,7 @@
   "par": "AUDUSD=X",
   "dir": "PUT",
   "entrada": 0.7036307454109192,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": true
  },
  {
@@ -121,7 +121,7 @@
   "par": "USDCAD=X",
   "dir": "CALL",
   "entrada": 1.4042600393295288,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": true
  }
 ]
