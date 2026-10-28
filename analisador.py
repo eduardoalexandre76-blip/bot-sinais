@@ -137,7 +137,7 @@ while True:
             direcao, r, p = direcao_de(df)
             if not direcao:
                 continue
-            if any(s["par"] == par and s["vela"] == vela for s in sinais):
+            if any(s.get("par") == par and s.get("vela") == vela for s in sinais):
                 continue
             ok = enviar(
                 f"📊 NOVO SINAL\n{LINHA}\n"
