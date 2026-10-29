@@ -1597,5 +1597,27 @@
   "entrada": 1.398300051689148,
   "resultado": "PERDEU",
   "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-10-29 19:40",
+  "entrada_t": "2026-10-29 19:45",
+  "exp_t": "2026-10-29 19:50",
+  "dir": "PUT",
+  "preco_sinal": 1.3371307849884033,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-10-29 19:40",
+  "entrada_t": "2026-10-29 19:45",
+  "exp_t": "2026-10-29 19:50",
+  "dir": "PUT",
+  "preco_sinal": 0.7038784027099609,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
