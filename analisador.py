@@ -104,7 +104,7 @@ for s in sinais:
         s["resultado"] = "SEM_DADOS"
 
 # teste manual: mostra que o bot está vivo
-if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+if False and os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
     linhas = []
     for par, nome in PARES.items():
         df = baixar(par, "5m", "2d")
