@@ -21,6 +21,10 @@ M1 = pd.Timedelta(minutes=1)
 # ---- AJUSTES ----
 LIMITE_PIPS = 1.0        # diferença menor que isso = INCERTO (não conta no placar)
 SO_VELA_FECHADA = True   # True = analisa só velas fechadas (sem a vela aberta)
+FILTRO_NOTICIAS = True   # True = não manda sinal perto de notícia de impacto ALTO
+JANELA_NOTICIA_MIN = 30  # minutos de folga antes da entrada e depois da expiração
+URL_NOTICIAS = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+_noticias = None
 
 
 def pip(par):
@@ -95,6 +99,38 @@ def preco_em(df, t):
     return float(s.iloc[-1]) if len(s) else None
 
 
+def carregar_noticias():
+    """Baixa o calendário da semana (só impacto ALTO). Se falhar, não bloqueia nada."""
+    global _noticias
+    if _noticias is not None:
+        return _noticias
+    lista = []
+    try:
+        r = requests.get(URL_NOTICIAS, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+        for e in r.json():
+            if e.get("impact") != "High":
+                continue
+            t = pd.Timestamp(e["date"])
+            t = t.tz_localize("UTC") if t.tzinfo is None else t.tz_convert("UTC")
+            lista.append((e.get("country", ""), t, e.get("title", "")))
+        print("noticias carregadas:", len(lista))
+    except Exception as ex:
+        print("erro noticias:", type(ex).__name__)
+    _noticias = lista
+    return lista
+
+
+def noticia_perto(nome, T):
+    """Devolve o título da notícia forte que afeta o par perto da operação, ou None."""
+    moedas = nome.split("/")
+    ini = T - pd.Timedelta(minutes=JANELA_NOTICIA_MIN)
+    fim = T + M5 + pd.Timedelta(minutes=JANELA_NOTICIA_MIN)
+    for moeda, t, titulo in carregar_noticias():
+        if moeda in moedas and ini <= t <= fim:
+            return titulo
+    return None
+
+
 def placar(sinais):
     env = [s for s in sinais if s.get("enviado")]
     v = [s for s in env if s["resultado"] in ("GANHOU", "PERDEU")]
@@ -147,6 +183,11 @@ while True:
                 continue
             if any(s.get("par") == par and s.get("vela") == vela for s in sinais):
                 continue
+            if FILTRO_NOTICIAS:
+                n = noticia_perto(nome, T)
+                if n:
+                    print("sinal bloqueado por noticia:", nome, n)
+                    continue
             ok = enviar(
                 f"📊 NOVO SINAL\n{LINHA}\n"
                 f"💱 Par: {nome}\n"
