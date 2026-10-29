@@ -1401,12 +1401,12 @@
   "enviado": true
  },
  {
-  "par": "GBPUSD=X",
-  "vela": "2026-10-29 15:25",
-  "entrada_t": "2026-10-29 15:30",
-  "exp_t": "2026-10-29 15:35",
+  "par": "AUDUSD=X",
+  "vela": "2026-10-29 15:30",
+  "entrada_t": "2026-10-29 15:35",
+  "exp_t": "2026-10-29 15:40",
   "dir": "PUT",
-  "preco_sinal": 1.3374526500701904,
+  "preco_sinal": 0.7035317420959473,
   "entrada": null,
   "resultado": null,
   "enviado": true
