@@ -1269,34 +1269,12 @@
   "enviado": true
  },
  {
-  "par": "EURUSD=X",
-  "vela": "2026-10-29 14:30",
-  "entrada_t": "2026-10-29 14:35",
-  "exp_t": "2026-10-29 14:40",
-  "dir": "PUT",
-  "preco_sinal": 1.1155734062194824,
-  "entrada": null,
-  "resultado": null,
-  "enviado": true
- },
- {
   "par": "GBPUSD=X",
-  "vela": "2026-10-29 14:30",
-  "entrada_t": "2026-10-29 14:35",
-  "exp_t": "2026-10-29 14:40",
+  "vela": "2026-10-29 14:35",
+  "entrada_t": "2026-10-29 14:40",
+  "exp_t": "2026-10-29 14:45",
   "dir": "PUT",
-  "preco_sinal": 1.3342050313949585,
-  "entrada": null,
-  "resultado": null,
-  "enviado": true
- },
- {
-  "par": "USDCAD=X",
-  "vela": "2026-10-29 14:30",
-  "entrada_t": "2026-10-29 14:35",
-  "exp_t": "2026-10-29 14:40",
-  "dir": "CALL",
-  "preco_sinal": 1.3990199565887451,
+  "preco_sinal": 1.3338490724563599,
   "entrada": null,
   "resultado": null,
   "enviado": true
