@@ -18,6 +18,18 @@ DURACAO = 285  # segundos que cada execução fica ligada vigiando o mercado
 M5 = pd.Timedelta(minutes=5)
 M1 = pd.Timedelta(minutes=1)
 
+# ---- AJUSTES ----
+LIMITE_PIPS = 1.0        # diferença menor que isso = INCERTO (não conta no placar)
+SO_VELA_FECHADA = True   # True = analisa só velas fechadas (sem a vela aberta)
+
+
+def pip(par):
+    return 0.01 if "JPY" in par else 0.0001
+
+
+def fmt_preco(par, x):
+    return f"{x:.3f}" if "JPY" in par else f"{x:.5f}"
+
 
 def enviar(txt):
     try:
@@ -60,6 +72,9 @@ def baixar(par, intervalo, periodo):
 
 
 def direcao_de(df):
+    # remove a vela que ainda está aberta (última linha)
+    if SO_VELA_FECHADA:
+        df = df.iloc[:-1]
     c = df["Close"]
     d = c.diff()
     ganho = d.clip(lower=0).rolling(14).mean()
@@ -81,12 +96,17 @@ def preco_em(df, t):
 
 
 def placar(sinais):
-    v = [s for s in sinais if s.get("enviado") and s["resultado"] in ("GANHOU", "PERDEU")]
+    env = [s for s in sinais if s.get("enviado")]
+    v = [s for s in env if s["resultado"] in ("GANHOU", "PERDEU")]
     if not v:
         return
+    inc = sum(1 for s in env if s["resultado"] == "INCERTO")
     g = sum(1 for s in v if s["resultado"] == "GANHOU")
     taxa = f"{100 * g / len(v):.1f}".replace(".", ",")
-    enviar(f"📈 PLACAR\n{LINHA}\n✅ {g} ganhos  |  ❌ {len(v) - g} perdas\n🎯 {taxa}% de acerto")
+    txt = f"📈 PLACAR\n{LINHA}\n✅ {g} ganhos  |  ❌ {len(v) - g} perdas\n🎯 {taxa}% de acerto"
+    if inc:
+        txt += f"\n⚠️ {inc} incertos (fora do placar)"
+    enviar(txt)
 
 
 def salvar(sinais):
@@ -103,18 +123,6 @@ for s in sinais:
     if s["resultado"] is None and "exp_t" not in s:
         s["resultado"] = "SEM_DADOS"
 
-# teste manual: mostra que o bot está vivo
-if False and os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
-    linhas = []
-    for par, nome in PARES.items():
-        df = baixar(par, "5m", "2d")
-        if df is not None and len(df) > 40:
-            _, r, _ = direcao_de(df)
-            linhas.append(f"{nome}: RSI {r:.0f}")
-    enviar("✅ Bot ligado e vigiando\n" + LINHA + "\n" + "\n".join(linhas)
-           + "\n" + LINHA + "\nO sinal sai ~2 min antes da entrada, quando RSI < 40 "
-           "(compra) ou > 60 (venda) e o preço passa da banda.")
-
 inicio = time.time()
 avaliados = set()
 
@@ -123,7 +131,7 @@ while True:
     T = agora.ceil("5min")  # próximo fechamento de vela = horário de entrada
     rem = (T - agora).total_seconds()
 
-    # 1) Sinais novos: analisa a vela ainda aberta, ~2 min antes da entrada
+    # 1) Sinais novos, ~2 min antes da entrada
     if 25 <= rem <= 130 and T not in avaliados:
         avaliados.add(T)
         vela = (T - M5).strftime(FMT)
@@ -145,7 +153,6 @@ while True:
                 f"{nome_dir(direcao)}\n"
                 f"⏰ Entre às {brt(T.strftime(FMT))} em ponto (Brasília)\n"
                 f"⌛ Expira às {brt((T + M5).strftime(FMT))} (5 min)\n"
-                f"💰 Preço agora: {p:.5f}\n"
                 f"{LINHA}\n"
                 f"⚠️ Teste: use conta demo."
             )
@@ -183,8 +190,9 @@ while True:
         if e is None or f is None:
             continue
         s["entrada"] = e
-        if f == e:
-            res = "EMPATE"
+        dif = (f - e) / pip(par)  # diferença em pips
+        if abs(dif) < LIMITE_PIPS:
+            res = "INCERTO"
         elif (s["dir"] == "CALL") == (f > e):
             res = "GANHOU"
         else:
@@ -192,13 +200,17 @@ while True:
         s["resultado"] = res
         mudou = True
         if s.get("enviado"):
-            icone = {"GANHOU": "✅ GANHOU", "PERDEU": "❌ PERDEU", "EMPATE": "➖ EMPATE"}[res]
+            icone = {
+                "GANHOU": "✅ GANHOU",
+                "PERDEU": "❌ PERDEU",
+                "INCERTO": "⚠️ INCERTO (diferença pequena, confira na corretora)",
+            }[res]
             enviar(
                 f"{icone}\n{LINHA}\n"
                 f"💱 {PARES.get(par, par)}\n"
                 f"{nome_dir(s['dir'])}\n"
                 f"⏰ Entrada {brt(s['entrada_t'])} → expirou {brt(s['exp_t'])}\n"
-                f"💰 {e:.5f} → {f:.5f}"
+                f"💰 {fmt_preco(par, e)} → {fmt_preco(par, f)} ({dif:+.1f} pips)"
             )
             placar(sinais)
     if mudou:
