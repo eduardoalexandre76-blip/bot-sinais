@@ -1363,8 +1363,8 @@
   "exp_t": "2026-10-29 15:20",
   "dir": "PUT",
   "preco_sinal": 1.1170687675476074,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.1174432039260864,
+  "resultado": "INCERTO",
   "enviado": true
  },
  {
@@ -1374,8 +1374,8 @@
   "exp_t": "2026-10-29 15:20",
   "dir": "PUT",
   "preco_sinal": 1.336755394935608,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3373095989227295,
+  "resultado": "INCERTO",
   "enviado": true
  },
  {
@@ -1385,6 +1385,17 @@
   "exp_t": "2026-10-29 15:20",
   "dir": "CALL",
   "preco_sinal": 1.398460030555725,
+  "entrada": 1.398419976234436,
+  "resultado": "INCERTO",
+  "enviado": true
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-10-29 15:20",
+  "entrada_t": "2026-10-29 15:25",
+  "exp_t": "2026-10-29 15:30",
+  "dir": "PUT",
+  "preco_sinal": 1.3372738361358643,
   "entrada": null,
   "resultado": null,
   "enviado": true
