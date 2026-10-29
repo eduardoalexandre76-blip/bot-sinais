@@ -1501,11 +1501,11 @@
  },
  {
   "par": "AUDUSD=X",
-  "vela": "2026-10-29 17:55",
-  "entrada_t": "2026-10-29 18:00",
-  "exp_t": "2026-10-29 18:05",
+  "vela": "2026-10-29 18:00",
+  "entrada_t": "2026-10-29 18:05",
+  "exp_t": "2026-10-29 18:10",
   "dir": "CALL",
-  "preco_sinal": 0.7036307454109192,
+  "preco_sinal": 0.7035812139511108,
   "entrada": null,
   "resultado": null,
   "enviado": false
