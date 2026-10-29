@@ -923,8 +923,8 @@
   "exp_t": "2026-10-29 10:40",
   "dir": "PUT",
   "preco_sinal": 1.1145787239074707,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.1147029399871826,
+  "resultado": "GANHOU",
   "enviado": true
  },
  {
@@ -934,8 +934,8 @@
   "exp_t": "2026-10-29 10:40",
   "dir": "PUT",
   "preco_sinal": 1.332196593284607,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3322497606277466,
+  "resultado": "GANHOU",
   "enviado": true
  },
  {
@@ -945,6 +945,50 @@
   "exp_t": "2026-10-29 10:40",
   "dir": "CALL",
   "preco_sinal": 1.398900032043457,
+  "entrada": 1.3991700410842896,
+  "resultado": "INCERTO",
+  "enviado": true
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-10-29 10:35",
+  "entrada_t": "2026-10-29 10:40",
+  "exp_t": "2026-10-29 10:45",
+  "dir": "PUT",
+  "preco_sinal": 1.1147029399871826,
+  "entrada": null,
+  "resultado": null,
+  "enviado": true
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-10-29 10:35",
+  "entrada_t": "2026-10-29 10:40",
+  "exp_t": "2026-10-29 10:45",
+  "dir": "PUT",
+  "preco_sinal": 1.3322497606277466,
+  "entrada": null,
+  "resultado": null,
+  "enviado": true
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-10-29 10:35",
+  "entrada_t": "2026-10-29 10:40",
+  "exp_t": "2026-10-29 10:45",
+  "dir": "PUT",
+  "preco_sinal": 158.03500366210938,
+  "entrada": null,
+  "resultado": null,
+  "enviado": true
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-10-29 10:40",
+  "entrada_t": "2026-10-29 10:45",
+  "exp_t": "2026-10-29 10:50",
+  "dir": "PUT",
+  "preco_sinal": 158.03700256347656,
   "entrada": null,
   "resultado": null,
   "enviado": true
