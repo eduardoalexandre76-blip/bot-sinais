@@ -615,6 +615,17 @@
   "exp_t": "2026-10-29 05:50",
   "dir": "CALL",
   "preco_sinal": 1.331611156463623,
+  "entrada": 1.3315579891204834,
+  "resultado": "INCERTO",
+  "enviado": true
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-10-29 05:50",
+  "entrada_t": "2026-10-29 05:55",
+  "exp_t": "2026-10-29 06:00",
+  "dir": "CALL",
+  "preco_sinal": 1.3314870595932007,
   "entrada": null,
   "resultado": null,
   "enviado": true
