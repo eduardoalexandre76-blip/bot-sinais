@@ -827,5 +827,16 @@
   "entrada": 1.3999199867248535,
   "resultado": "GANHOU",
   "enviado": true
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-10-29 08:50",
+  "entrada_t": "2026-10-29 08:55",
+  "exp_t": "2026-10-29 09:00",
+  "dir": "CALL",
+  "preco_sinal": 1.3308136463165283,
+  "entrada": null,
+  "resultado": null,
+  "enviado": true
  }
 ]
