@@ -739,5 +739,16 @@
   "entrada": 1.3991400003433228,
   "resultado": "INCERTO",
   "enviado": true
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-10-29 07:30",
+  "entrada_t": "2026-10-29 07:35",
+  "exp_t": "2026-10-29 07:40",
+  "dir": "PUT",
+  "preco_sinal": 1.3320190906524658,
+  "entrada": null,
+  "resultado": null,
+  "enviado": true
  }
 ]
