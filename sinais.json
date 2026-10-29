@@ -742,11 +742,11 @@
  },
  {
   "par": "GBPUSD=X",
-  "vela": "2026-10-29 07:30",
-  "entrada_t": "2026-10-29 07:35",
-  "exp_t": "2026-10-29 07:40",
+  "vela": "2026-10-29 07:35",
+  "entrada_t": "2026-10-29 07:40",
+  "exp_t": "2026-10-29 07:45",
   "dir": "PUT",
-  "preco_sinal": 1.3320190906524658,
+  "preco_sinal": 1.3320544958114624,
   "entrada": null,
   "resultado": null,
   "enviado": true
