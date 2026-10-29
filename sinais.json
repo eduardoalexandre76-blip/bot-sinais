@@ -1478,12 +1478,12 @@
   "enviado": false
  },
  {
-  "par": "USDCAD=X",
-  "vela": "2026-10-29 17:10",
-  "entrada_t": "2026-10-29 17:15",
-  "exp_t": "2026-10-29 17:20",
-  "dir": "CALL",
-  "preco_sinal": 1.3969600200653076,
+  "par": "EURUSD=X",
+  "vela": "2026-10-29 17:15",
+  "entrada_t": "2026-10-29 17:20",
+  "exp_t": "2026-10-29 17:25",
+  "dir": "PUT",
+  "preco_sinal": 1.1170687675476074,
   "entrada": null,
   "resultado": null,
   "enviado": false
