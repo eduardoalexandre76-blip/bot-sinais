@@ -1605,8 +1605,8 @@
   "exp_t": "2026-10-29 19:50",
   "dir": "PUT",
   "preco_sinal": 1.3371307849884033,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3370592594146729,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -1616,8 +1616,8 @@
   "exp_t": "2026-10-29 19:50",
   "dir": "PUT",
   "preco_sinal": 0.7038784027099609,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.7036802172660828,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
