@@ -3200,8 +3200,8 @@
   "exp_t": "2026-10-30 14:30",
   "dir": "CALL",
   "preco_sinal": 0.7018036246299744,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.7019021511077881,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
