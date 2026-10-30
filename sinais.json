@@ -2754,12 +2754,12 @@
   "enviado": false
  },
  {
-  "par": "GBPUSD=X",
-  "vela": "2026-10-30 09:55",
-  "entrada_t": "2026-10-30 10:00",
-  "exp_t": "2026-10-30 10:05",
-  "dir": "PUT",
-  "preco_sinal": 1.3429489135742188,
+  "par": "USDCAD=X",
+  "vela": "2026-10-30 10:05",
+  "entrada_t": "2026-10-30 10:10",
+  "exp_t": "2026-10-30 10:15",
+  "dir": "CALL",
+  "preco_sinal": 1.3957600593566895,
   "entrada": null,
   "resultado": null,
   "enviado": false
