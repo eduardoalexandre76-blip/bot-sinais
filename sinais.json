@@ -2815,6 +2815,28 @@
   "exp_t": "2026-10-30 11:00",
   "dir": "PUT",
   "preco_sinal": 0.7036802172660828,
+  "entrada": 0.7036802172660828,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-10-30 11:00",
+  "entrada_t": "2026-10-30 11:05",
+  "exp_t": "2026-10-30 11:10",
+  "dir": "PUT",
+  "preco_sinal": 0.7038784027099609,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-10-30 11:00",
+  "entrada_t": "2026-10-30 11:05",
+  "exp_t": "2026-10-30 11:10",
+  "dir": "CALL",
+  "preco_sinal": 1.3954600095748901,
   "entrada": null,
   "resultado": null,
   "enviado": false
