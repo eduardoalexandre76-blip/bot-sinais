@@ -3228,11 +3228,11 @@
  },
  {
   "par": "USDCAD=X",
-  "vela": "2026-10-30 15:20",
-  "entrada_t": "2026-10-30 15:25",
-  "exp_t": "2026-10-30 15:30",
+  "vela": "2026-10-30 15:25",
+  "entrada_t": "2026-10-30 15:30",
+  "exp_t": "2026-10-30 15:35",
   "dir": "CALL",
-  "preco_sinal": 1.395419955253601,
+  "preco_sinal": 1.3952100276947021,
   "entrada": null,
   "resultado": null,
   "enviado": false
