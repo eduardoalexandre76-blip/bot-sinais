@@ -2986,22 +2986,11 @@
  },
  {
   "par": "EURUSD=X",
-  "vela": "2026-10-30 12:30",
-  "entrada_t": "2026-10-30 12:35",
-  "exp_t": "2026-10-30 12:40",
+  "vela": "2026-10-30 12:35",
+  "entrada_t": "2026-10-30 12:40",
+  "exp_t": "2026-10-30 12:45",
   "dir": "CALL",
   "preco_sinal": 1.1191942691802979,
-  "entrada": null,
-  "resultado": null,
-  "enviado": false
- },
- {
-  "par": "GBPUSD=X",
-  "vela": "2026-10-30 12:30",
-  "entrada_t": "2026-10-30 12:35",
-  "exp_t": "2026-10-30 12:40",
-  "dir": "CALL",
-  "preco_sinal": 1.3424980640411377,
   "entrada": null,
   "resultado": null,
   "enviado": false
