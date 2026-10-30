@@ -2147,5 +2147,16 @@
   "entrada": 0.7037297487258911,
   "resultado": "GANHOU",
   "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-10-30 02:00",
+  "entrada_t": "2026-10-30 02:05",
+  "exp_t": "2026-10-30 02:10",
+  "dir": "PUT",
+  "preco_sinal": 0.7038288712501526,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
