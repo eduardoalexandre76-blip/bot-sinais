@@ -2565,5 +2565,27 @@
   "entrada": 1.3972100019454956,
   "resultado": "PERDEU",
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-10-30 08:00",
+  "entrada_t": "2026-10-30 08:05",
+  "exp_t": "2026-10-30 08:10",
+  "dir": "PUT",
+  "preco_sinal": 1.1193194389343262,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-10-30 08:00",
+  "entrada_t": "2026-10-30 08:05",
+  "exp_t": "2026-10-30 08:10",
+  "dir": "CALL",
+  "preco_sinal": 0.7024939060211182,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
