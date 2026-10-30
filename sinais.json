@@ -2914,6 +2914,17 @@
   "exp_t": "2026-10-30 11:50",
   "dir": "CALL",
   "preco_sinal": 156.9949951171875,
+  "entrada": 157.0659942626953,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-10-30 11:50",
+  "entrada_t": "2026-10-30 11:55",
+  "exp_t": "2026-10-30 12:00",
+  "dir": "CALL",
+  "preco_sinal": 0.7030865550041199,
   "entrada": null,
   "resultado": null,
   "enviado": false
