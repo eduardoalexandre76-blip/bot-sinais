@@ -1971,5 +1971,16 @@
   "entrada": 1.3979300260543823,
   "resultado": "INCERTO",
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-10-30 00:50",
+  "entrada_t": "2026-10-30 00:55",
+  "exp_t": "2026-10-30 01:00",
+  "dir": "PUT",
+  "preco_sinal": 1.119444727897644,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
