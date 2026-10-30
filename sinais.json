@@ -3366,7 +3366,7 @@
   "dir": "CALL",
   "preco_sinal": 1.33872389793396,
   "entrada": 1.3386164903640747,
-  "resultado": "GANHOU",
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
