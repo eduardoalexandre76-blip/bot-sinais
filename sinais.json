@@ -3454,7 +3454,7 @@
   "dir": "PUT",
   "preco_sinal": 1.396630048751831,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  }
 ]
