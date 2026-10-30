@@ -3509,7 +3509,7 @@
   "dir": "CALL",
   "preco_sinal": 1.3389389514923096,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  }
 ]
