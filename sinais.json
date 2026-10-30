@@ -1968,8 +1968,8 @@
   "exp_t": "2026-10-30 00:40",
   "dir": "CALL",
   "preco_sinal": 1.3977899551391602,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3979300260543823,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
