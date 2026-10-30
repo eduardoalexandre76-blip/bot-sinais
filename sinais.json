@@ -3475,6 +3475,17 @@
   "exp_t": "2026-10-30 21:00",
   "dir": "PUT",
   "preco_sinal": 1.3976199626922607,
+  "entrada": 1.3976199626922607,
+  "resultado": "GANHOU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-10-30 21:00",
+  "entrada_t": "2026-10-30 21:05",
+  "exp_t": "2026-10-30 21:10",
+  "dir": "CALL",
+  "preco_sinal": 1.1161960363388062,
   "entrada": null,
   "resultado": null,
   "enviado": false
