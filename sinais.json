@@ -4785,7 +4785,7 @@
   "dir": "CALL",
   "preco_sinal": 1.3955600261688232,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  }
 ]
