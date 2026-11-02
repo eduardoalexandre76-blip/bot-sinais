@@ -5120,11 +5120,11 @@
  },
  {
   "par": "USDCAD=X",
-  "vela": "2026-11-02 19:50",
-  "entrada_t": "2026-11-02 19:55",
-  "exp_t": "2026-11-02 20:00",
+  "vela": "2026-11-02 19:55",
+  "entrada_t": "2026-11-02 20:00",
+  "exp_t": "2026-11-02 20:05",
   "dir": "PUT",
-  "preco_sinal": 1.3991199731826782,
+  "preco_sinal": 1.3990000486373901,
   "entrada": null,
   "resultado": null,
   "enviado": false
