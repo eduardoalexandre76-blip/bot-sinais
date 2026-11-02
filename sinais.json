@@ -4146,8 +4146,8 @@
   "exp_t": "2026-11-02 08:40",
   "dir": "PUT",
   "preco_sinal": 1.1205737590789795,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.121076226234436,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -4157,8 +4157,8 @@
   "exp_t": "2026-11-02 08:40",
   "dir": "PUT",
   "preco_sinal": 1.3420476913452148,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3425341844558716,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -4168,8 +4168,8 @@
   "exp_t": "2026-11-02 08:40",
   "dir": "CALL",
   "preco_sinal": 157.65699768066406,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 157.64700317382812,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -4179,8 +4179,8 @@
   "exp_t": "2026-11-02 08:40",
   "dir": "PUT",
   "preco_sinal": 0.7026419043540955,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.7025431990623474,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -4190,6 +4190,50 @@
   "exp_t": "2026-11-02 08:40",
   "dir": "CALL",
   "preco_sinal": 1.396399974822998,
+  "entrada": 1.3965500593185425,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-02 08:40",
+  "entrada_t": "2026-11-02 08:45",
+  "exp_t": "2026-11-02 08:50",
+  "dir": "PUT",
+  "preco_sinal": 1.1217050552368164,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-02 08:40",
+  "entrada_t": "2026-11-02 08:45",
+  "exp_t": "2026-11-02 08:50",
+  "dir": "PUT",
+  "preco_sinal": 1.3430570363998413,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-02 08:40",
+  "entrada_t": "2026-11-02 08:45",
+  "exp_t": "2026-11-02 08:50",
+  "dir": "CALL",
+  "preco_sinal": 157.63400268554688,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-02 08:40",
+  "entrada_t": "2026-11-02 08:45",
+  "exp_t": "2026-11-02 08:50",
+  "dir": "CALL",
+  "preco_sinal": 1.3960399627685547,
   "entrada": null,
   "resultado": null,
   "enviado": false
