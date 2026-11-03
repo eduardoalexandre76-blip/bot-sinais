@@ -6217,5 +6217,16 @@
   "entrada": 1.3980000019073486,
   "resultado": "PERDEU",
   "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-03 14:35",
+  "entrada_t": "2026-11-03 14:40",
+  "exp_t": "2026-11-03 14:45",
+  "dir": "PUT",
+  "preco_sinal": 1.3987400531768799,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
