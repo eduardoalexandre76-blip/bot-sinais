@@ -1903,7 +1903,7 @@
   "dir": "CALL",
   "preco_sinal": 1.3380074501037598,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
@@ -1914,7 +1914,7 @@
   "dir": "PUT",
   "preco_sinal": 157.822998046875,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
