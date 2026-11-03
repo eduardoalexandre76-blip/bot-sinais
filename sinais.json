@@ -6192,8 +6192,8 @@
   "exp_t": "2026-11-03 14:10",
   "dir": "PUT",
   "preco_sinal": 1.1198208332061768,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.118943691253662,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -6203,6 +6203,17 @@
   "exp_t": "2026-11-03 14:10",
   "dir": "PUT",
   "preco_sinal": 1.3984899520874023,
+  "entrada": 1.3984999656677246,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-03 14:10",
+  "entrada_t": "2026-11-03 14:15",
+  "exp_t": "2026-11-03 14:20",
+  "dir": "PUT",
+  "preco_sinal": 1.3984400033950806,
   "entrada": null,
   "resultado": null,
   "enviado": false
