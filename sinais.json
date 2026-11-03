@@ -5356,6 +5356,39 @@
   "exp_t": "2026-11-03 02:20",
   "dir": "CALL",
   "preco_sinal": 0.6994474530220032,
+  "entrada": 0.699594259262085,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-03 02:20",
+  "entrada_t": "2026-11-03 02:25",
+  "exp_t": "2026-11-03 02:30",
+  "dir": "CALL",
+  "preco_sinal": 1.11831796169281,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-03 02:20",
+  "entrada_t": "2026-11-03 02:25",
+  "exp_t": "2026-11-03 02:30",
+  "dir": "CALL",
+  "preco_sinal": 1.3398540019989014,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-03 02:20",
+  "entrada_t": "2026-11-03 02:25",
+  "exp_t": "2026-11-03 02:30",
+  "dir": "PUT",
+  "preco_sinal": 1.3994899988174438,
   "entrada": null,
   "resultado": null,
   "enviado": false
