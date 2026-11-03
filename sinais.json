@@ -6363,11 +6363,11 @@
  },
  {
   "par": "USDJPY=X",
-  "vela": "2026-11-03 18:35",
-  "entrada_t": "2026-11-03 18:40",
-  "exp_t": "2026-11-03 18:45",
+  "vela": "2026-11-03 18:40",
+  "entrada_t": "2026-11-03 18:45",
+  "exp_t": "2026-11-03 18:50",
   "dir": "PUT",
-  "preco_sinal": 158.572998046875,
+  "preco_sinal": 158.5919952392578,
   "entrada": null,
   "resultado": null,
   "enviado": false
