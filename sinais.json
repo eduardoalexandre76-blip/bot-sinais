@@ -8348,8 +8348,8 @@
   "exp_t": "2026-11-04 21:30",
   "dir": "CALL",
   "preco_sinal": 158.41000366210938,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 158.41400146484375,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
