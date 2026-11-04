@@ -8034,12 +8034,12 @@
   "enviado": false
  },
  {
-  "par": "AUDUSD=X",
-  "vela": "2026-11-04 17:15",
-  "entrada_t": "2026-11-04 17:20",
-  "exp_t": "2026-11-04 17:25",
-  "dir": "PUT",
-  "preco_sinal": 0.7019021511077881,
+  "par": "USDJPY=X",
+  "vela": "2026-11-04 17:20",
+  "entrada_t": "2026-11-04 17:25",
+  "exp_t": "2026-11-04 17:30",
+  "dir": "CALL",
+  "preco_sinal": 158.31199645996094,
   "entrada": null,
   "resultado": null,
   "enviado": false
