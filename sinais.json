@@ -7688,8 +7688,8 @@
   "exp_t": "2026-11-04 13:10",
   "dir": "PUT",
   "preco_sinal": 1.3497462272644043,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3501471281051636,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -7699,6 +7699,17 @@
   "exp_t": "2026-11-04 13:10",
   "dir": "CALL",
   "preco_sinal": 1.393180012702942,
+  "entrada": 1.3933099508285522,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-04 13:10",
+  "entrada_t": "2026-11-04 13:15",
+  "exp_t": "2026-11-04 13:20",
+  "dir": "PUT",
+  "preco_sinal": 1.3499830961227417,
   "entrada": null,
   "resultado": null,
   "enviado": false
