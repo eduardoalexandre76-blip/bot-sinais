@@ -8073,8 +8073,8 @@
   "exp_t": "2026-11-04 17:50",
   "dir": "CALL",
   "preco_sinal": 158.19400024414062,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 158.21400451660156,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
