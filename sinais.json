@@ -8458,8 +8458,8 @@
   "exp_t": "2026-11-04 23:10",
   "dir": "CALL",
   "preco_sinal": 0.7005254030227661,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.7005744576454163,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
