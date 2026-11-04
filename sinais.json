@@ -7952,8 +7952,8 @@
   "exp_t": "2026-11-04 15:50",
   "dir": "CALL",
   "preco_sinal": 1.3464748859405518,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3470553159713745,
+  "resultado": "PERDEU",
   "enviado": false
  }
 ]
