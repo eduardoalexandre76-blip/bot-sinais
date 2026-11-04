@@ -8018,8 +8018,8 @@
   "exp_t": "2026-11-04 17:10",
   "dir": "CALL",
   "preco_sinal": 1.3457320928573608,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.345442295074463,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -8029,8 +8029,8 @@
   "exp_t": "2026-11-04 17:10",
   "dir": "PUT",
   "preco_sinal": 1.3974299430847168,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3973100185394287,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
