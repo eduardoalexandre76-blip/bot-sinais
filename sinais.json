@@ -9833,8 +9833,8 @@
   "exp_t": "2026-11-05 18:20",
   "dir": "CALL",
   "preco_sinal": 0.6950236558914185,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.695458710193634,
+  "resultado": "PERDEU",
   "enviado": false
  }
 ]
