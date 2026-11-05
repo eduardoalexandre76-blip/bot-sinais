@@ -10124,12 +10124,23 @@
   "enviado": false
  },
  {
-  "par": "USDJPY=X",
-  "vela": "2026-11-05 21:20",
-  "entrada_t": "2026-11-05 21:25",
-  "exp_t": "2026-11-05 21:30",
+  "par": "EURUSD=X",
+  "vela": "2026-11-05 21:25",
+  "entrada_t": "2026-11-05 21:30",
+  "exp_t": "2026-11-05 21:35",
   "dir": "CALL",
-  "preco_sinal": 157.74099731445312,
+  "preco_sinal": 1.1220825910568237,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-05 21:25",
+  "entrada_t": "2026-11-05 21:30",
+  "exp_t": "2026-11-05 21:35",
+  "dir": "CALL",
+  "preco_sinal": 157.67799377441406,
   "entrada": null,
   "resultado": null,
   "enviado": false
