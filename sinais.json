@@ -10944,8 +10944,8 @@
   "exp_t": "2026-11-06 07:40",
   "dir": "CALL",
   "preco_sinal": 1.1179429292678833,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.117193579673767,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -10955,8 +10955,8 @@
   "exp_t": "2026-11-06 07:40",
   "dir": "CALL",
   "preco_sinal": 1.3403927087783813,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.339620590209961,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -10966,8 +10966,8 @@
   "exp_t": "2026-11-06 07:40",
   "dir": "CALL",
   "preco_sinal": 0.6866245269775391,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.6864831447601318,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -10977,6 +10977,50 @@
   "exp_t": "2026-11-06 07:40",
   "dir": "PUT",
   "preco_sinal": 1.4058400392532349,
+  "entrada": 1.406149983406067,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-06 07:40",
+  "entrada_t": "2026-11-06 07:45",
+  "exp_t": "2026-11-06 07:50",
+  "dir": "CALL",
+  "preco_sinal": 1.1174432039260864,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-06 07:40",
+  "entrada_t": "2026-11-06 07:45",
+  "exp_t": "2026-11-06 07:50",
+  "dir": "CALL",
+  "preco_sinal": 1.340105414390564,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-06 07:40",
+  "entrada_t": "2026-11-06 07:45",
+  "exp_t": "2026-11-06 07:50",
+  "dir": "CALL",
+  "preco_sinal": 0.6867660284042358,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-06 07:40",
+  "entrada_t": "2026-11-06 07:45",
+  "exp_t": "2026-11-06 07:50",
+  "dir": "PUT",
+  "preco_sinal": 1.4061299562454224,
   "entrada": null,
   "resultado": null,
   "enviado": false
