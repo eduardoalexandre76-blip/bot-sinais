@@ -13331,8 +13331,8 @@
   "exp_t": "2026-11-09 13:30",
   "dir": "PUT",
   "preco_sinal": 1.1198208332061768,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.1196954250335693,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -13342,8 +13342,8 @@
   "exp_t": "2026-11-09 13:30",
   "dir": "PUT",
   "preco_sinal": 1.3421918153762817,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.341849684715271,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
