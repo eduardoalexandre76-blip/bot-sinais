@@ -13370,11 +13370,44 @@
  },
  {
   "par": "USDJPY=X",
-  "vela": "2026-11-09 14:35",
-  "entrada_t": "2026-11-09 14:40",
-  "exp_t": "2026-11-09 14:45",
+  "vela": "2026-11-09 14:40",
+  "entrada_t": "2026-11-09 14:45",
+  "exp_t": "2026-11-09 14:50",
   "dir": "PUT",
-  "preco_sinal": 158.02999877929688,
+  "preco_sinal": 158.0449981689453,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-09 14:40",
+  "entrada_t": "2026-11-09 14:45",
+  "exp_t": "2026-11-09 14:50",
+  "dir": "PUT",
+  "preco_sinal": 0.6906077861785889,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-09 14:45",
+  "entrada_t": "2026-11-09 14:50",
+  "exp_t": "2026-11-09 14:55",
+  "dir": "PUT",
+  "preco_sinal": 158.08799743652344,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-09 14:45",
+  "entrada_t": "2026-11-09 14:50",
+  "exp_t": "2026-11-09 14:55",
+  "dir": "PUT",
+  "preco_sinal": 0.6905600428581238,
   "entrada": null,
   "resultado": null,
   "enviado": false
