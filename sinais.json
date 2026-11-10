@@ -14310,6 +14310,17 @@
   "exp_t": "2026-11-10 03:00",
   "dir": "CALL",
   "preco_sinal": 1.1220825910568237,
+  "entrada": 1.1220825910568237,
+  "resultado": "GANHOU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-10 02:55",
+  "entrada_t": "2026-11-10 03:00",
+  "exp_t": "2026-11-10 03:05",
+  "dir": "CALL",
+  "preco_sinal": 1.1220825910568237,
   "entrada": null,
   "resultado": null,
   "enviado": false
