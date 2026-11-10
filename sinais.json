@@ -15019,12 +15019,23 @@
   "enviado": false
  },
  {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-10 15:30",
+  "entrada_t": "2026-11-10 15:35",
+  "exp_t": "2026-11-10 15:40",
+  "dir": "CALL",
+  "preco_sinal": 1.337005615234375,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
   "par": "USDCAD=X",
-  "vela": "2026-11-10 15:25",
-  "entrada_t": "2026-11-10 15:30",
-  "exp_t": "2026-11-10 15:35",
+  "vela": "2026-11-10 15:30",
+  "entrada_t": "2026-11-10 15:35",
+  "exp_t": "2026-11-10 15:40",
   "dir": "PUT",
-  "preco_sinal": 1.417799949645996,
+  "preco_sinal": 1.4179999828338623,
   "entrada": null,
   "resultado": null,
   "enviado": false
