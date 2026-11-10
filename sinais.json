@@ -15630,8 +15630,8 @@
   "exp_t": "2026-11-10 23:35",
   "dir": "PUT",
   "preco_sinal": 1.1173185110092163,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.117193579673767,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
