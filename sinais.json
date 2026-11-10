@@ -14591,11 +14591,11 @@
  },
  {
   "par": "EURUSD=X",
-  "vela": "2026-11-10 08:35",
-  "entrada_t": "2026-11-10 08:40",
-  "exp_t": "2026-11-10 08:45",
+  "vela": "2026-11-10 08:40",
+  "entrada_t": "2026-11-10 08:45",
+  "exp_t": "2026-11-10 08:50",
   "dir": "PUT",
-  "preco_sinal": 1.124985933303833,
+  "preco_sinal": 1.1248594522476196,
   "entrada": null,
   "resultado": null,
   "enviado": false
