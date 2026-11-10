@@ -14489,5 +14489,16 @@
   "entrada": 158.0260009765625,
   "resultado": "GANHOU",
   "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-10 07:00",
+  "entrada_t": "2026-11-10 07:05",
+  "exp_t": "2026-11-10 07:10",
+  "dir": "CALL",
+  "preco_sinal": 0.6921852231025696,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
