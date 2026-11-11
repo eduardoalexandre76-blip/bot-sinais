@@ -16697,8 +16697,8 @@
   "exp_t": "2026-11-11 13:55",
   "dir": "CALL",
   "preco_sinal": 1.1118524074554443,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.1118524074554443,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -16707,9 +16707,9 @@
   "entrada_t": "2026-11-11 13:50",
   "exp_t": "2026-11-11 13:55",
   "dir": "CALL",
-  "preco_sinal": 1.3297696113586426,
-  "entrada": null,
-  "resultado": null,
+  "preco_sinal": 1.329787254333496,
+  "entrada": 1.3297696113586426,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -16718,7 +16718,62 @@
   "entrada_t": "2026-11-11 13:50",
   "exp_t": "2026-11-11 13:55",
   "dir": "PUT",
-  "preco_sinal": 159.44400024414062,
+  "preco_sinal": 159.43800354003906,
+  "entrada": 159.44400024414062,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-11 13:40",
+  "entrada_t": "2026-11-11 13:45",
+  "exp_t": "2026-11-11 13:50",
+  "dir": "CALL",
+  "preco_sinal": 0.6856359243392944,
+  "entrada": 0.6856829524040222,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-11 13:50",
+  "entrada_t": "2026-11-11 13:55",
+  "exp_t": "2026-11-11 14:00",
+  "dir": "CALL",
+  "preco_sinal": 1.111605167388916,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-11 13:50",
+  "entrada_t": "2026-11-11 13:55",
+  "exp_t": "2026-11-11 14:00",
+  "dir": "CALL",
+  "preco_sinal": 1.329451322555542,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-11 13:50",
+  "entrada_t": "2026-11-11 13:55",
+  "exp_t": "2026-11-11 14:00",
+  "dir": "PUT",
+  "preco_sinal": 159.55099487304688,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-11 13:50",
+  "entrada_t": "2026-11-11 13:55",
+  "exp_t": "2026-11-11 14:00",
+  "dir": "CALL",
+  "preco_sinal": 0.6853539943695068,
   "entrada": null,
   "resultado": null,
   "enviado": false
