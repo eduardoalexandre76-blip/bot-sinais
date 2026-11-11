@@ -16642,8 +16642,8 @@
   "exp_t": "2026-11-11 13:40",
   "dir": "CALL",
   "preco_sinal": 1.1119760274887085,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.1120996475219727,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -16653,8 +16653,8 @@
   "exp_t": "2026-11-11 13:40",
   "dir": "CALL",
   "preco_sinal": 1.3298048973083496,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3298403024673462,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -16664,8 +16664,8 @@
   "exp_t": "2026-11-11 13:40",
   "dir": "PUT",
   "preco_sinal": 159.3769989013672,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.3699951171875,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -16675,8 +16675,8 @@
   "exp_t": "2026-11-11 13:40",
   "dir": "CALL",
   "preco_sinal": 0.6855419278144836,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.6855888962745667,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -16686,6 +16686,50 @@
   "exp_t": "2026-11-11 13:40",
   "dir": "PUT",
   "preco_sinal": 1.424299955368042,
+  "entrada": 1.4239799976348877,
+  "resultado": "GANHOU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-11 13:40",
+  "entrada_t": "2026-11-11 13:45",
+  "exp_t": "2026-11-11 13:50",
+  "dir": "CALL",
+  "preco_sinal": 1.1118524074554443,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-11 13:40",
+  "entrada_t": "2026-11-11 13:45",
+  "exp_t": "2026-11-11 13:50",
+  "dir": "CALL",
+  "preco_sinal": 1.329787254333496,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-11 13:40",
+  "entrada_t": "2026-11-11 13:45",
+  "exp_t": "2026-11-11 13:50",
+  "dir": "PUT",
+  "preco_sinal": 159.43800354003906,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-11 13:40",
+  "entrada_t": "2026-11-11 13:45",
+  "exp_t": "2026-11-11 13:50",
+  "dir": "CALL",
+  "preco_sinal": 0.6856359243392944,
   "entrada": null,
   "resultado": null,
   "enviado": false
