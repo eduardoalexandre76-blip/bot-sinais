@@ -15864,5 +15864,16 @@
   "entrada": 158.8249969482422,
   "resultado": "GANHOU",
   "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-11 03:00",
+  "entrada_t": "2026-11-11 03:05",
+  "exp_t": "2026-11-11 03:10",
+  "dir": "CALL",
+  "preco_sinal": 158.8000030517578,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
