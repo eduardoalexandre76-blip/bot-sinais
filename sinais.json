@@ -18017,8 +18017,8 @@
   "exp_t": "2026-11-12 08:40",
   "dir": "CALL",
   "preco_sinal": 0.6822212934494019,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.6823609471321106,
+  "resultado": "PERDEU",
   "enviado": false
  }
 ]
