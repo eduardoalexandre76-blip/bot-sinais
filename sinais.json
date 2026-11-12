@@ -18273,5 +18273,27 @@
   "entrada": 1.326400637626648,
   "resultado": "GANHOU",
   "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-12 13:10",
+  "entrada_t": "2026-11-12 13:15",
+  "exp_t": "2026-11-12 13:20",
+  "dir": "CALL",
+  "preco_sinal": 1.3259609937667847,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-12 13:10",
+  "entrada_t": "2026-11-12 13:15",
+  "exp_t": "2026-11-12 13:20",
+  "dir": "CALL",
+  "preco_sinal": 0.6826404333114624,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
