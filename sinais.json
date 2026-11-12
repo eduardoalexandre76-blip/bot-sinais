@@ -18204,8 +18204,8 @@
   "exp_t": "2026-11-12 12:00",
   "dir": "CALL",
   "preco_sinal": 1.1090162992477417,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.1090162992477417,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -18215,8 +18215,8 @@
   "exp_t": "2026-11-12 12:00",
   "dir": "CALL",
   "preco_sinal": 1.3266470432281494,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3267526626586914,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -18226,8 +18226,8 @@
   "exp_t": "2026-11-12 12:00",
   "dir": "PUT",
   "preco_sinal": 159.72300720214844,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.71299743652344,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
