@@ -18341,12 +18341,23 @@
   "enviado": false
  },
  {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-12 13:45",
+  "entrada_t": "2026-11-12 13:50",
+  "exp_t": "2026-11-12 13:55",
+  "dir": "PUT",
+  "preco_sinal": 0.6831534504890442,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
   "par": "USDCAD=X",
-  "vela": "2026-11-12 13:40",
-  "entrada_t": "2026-11-12 13:45",
-  "exp_t": "2026-11-12 13:50",
+  "vela": "2026-11-12 13:45",
+  "entrada_t": "2026-11-12 13:50",
+  "exp_t": "2026-11-12 13:55",
   "dir": "CALL",
-  "preco_sinal": 1.4223999977111816,
+  "preco_sinal": 1.4229099750518799,
   "entrada": null,
   "resultado": null,
   "enviado": false
