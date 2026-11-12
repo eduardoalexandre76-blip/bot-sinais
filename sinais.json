@@ -17803,11 +17803,11 @@
  },
  {
   "par": "AUDUSD=X",
-  "vela": "2026-11-12 05:20",
-  "entrada_t": "2026-11-12 05:25",
-  "exp_t": "2026-11-12 05:30",
+  "vela": "2026-11-12 05:25",
+  "entrada_t": "2026-11-12 05:30",
+  "exp_t": "2026-11-12 05:35",
   "dir": "CALL",
-  "preco_sinal": 0.6839945316314697,
+  "preco_sinal": 0.6839009523391724,
   "entrada": null,
   "resultado": null,
   "enviado": false
