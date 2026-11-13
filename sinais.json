@@ -19010,5 +19010,16 @@
   "entrada": null,
   "resultado": null,
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-13 00:00",
+  "entrada_t": "2026-11-13 00:05",
+  "exp_t": "2026-11-13 00:10",
+  "dir": "CALL",
+  "preco_sinal": 1.1055831909179688,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
