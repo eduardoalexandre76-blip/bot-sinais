@@ -20552,12 +20552,12 @@
   "enviado": false
  },
  {
-  "par": "GBPUSD=X",
-  "vela": "2026-11-16 04:05",
-  "entrada_t": "2026-11-16 04:10",
-  "exp_t": "2026-11-16 04:15",
+  "par": "USDJPY=X",
+  "vela": "2026-11-16 04:10",
+  "entrada_t": "2026-11-16 04:15",
+  "exp_t": "2026-11-16 04:20",
   "dir": "CALL",
-  "preco_sinal": 1.3204981088638306,
+  "preco_sinal": 159.57899475097656,
   "entrada": null,
   "resultado": null,
   "enviado": false
