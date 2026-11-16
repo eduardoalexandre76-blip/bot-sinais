@@ -20997,20 +20997,9 @@
   "entrada_t": "2026-11-16 09:55",
   "exp_t": "2026-11-16 10:00",
   "dir": "CALL",
-  "preco_sinal": 1.318913221359253,
-  "entrada": 1.3187741041183472,
-  "resultado": "GANHOU",
-  "enviado": false
- },
- {
-  "par": "AUDUSD=X",
-  "vela": "2026-11-16 09:50",
-  "entrada_t": "2026-11-16 09:55",
-  "exp_t": "2026-11-16 10:00",
-  "dir": "CALL",
-  "preco_sinal": 0.6752650141716003,
-  "entrada": 0.6750826835632324,
-  "resultado": "GANHOU",
+  "preco_sinal": 1.3189828395843506,
+  "entrada": 1.3189479112625122,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -21019,20 +21008,9 @@
   "entrada_t": "2026-11-16 09:55",
   "exp_t": "2026-11-16 10:00",
   "dir": "PUT",
-  "preco_sinal": 1.4289799928665161,
-  "entrada": 1.4284000396728516,
+  "preco_sinal": 1.4290200471878052,
+  "entrada": 1.4285999536514282,
   "resultado": "PERDEU",
-  "enviado": false
- },
- {
-  "par": "EURUSD=X",
-  "vela": "2026-11-16 09:55",
-  "entrada_t": "2026-11-16 10:00",
-  "exp_t": "2026-11-16 10:05",
-  "dir": "CALL",
-  "preco_sinal": 1.1009578704833984,
-  "entrada": null,
-  "resultado": null,
   "enviado": false
  },
  {
@@ -21041,20 +21019,9 @@
   "entrada_t": "2026-11-16 10:00",
   "exp_t": "2026-11-16 10:05",
   "dir": "CALL",
-  "preco_sinal": 1.3187741041183472,
-  "entrada": null,
-  "resultado": null,
-  "enviado": false
- },
- {
-  "par": "AUDUSD=X",
-  "vela": "2026-11-16 09:55",
-  "entrada_t": "2026-11-16 10:00",
-  "exp_t": "2026-11-16 10:05",
-  "dir": "CALL",
-  "preco_sinal": 0.6750826835632324,
-  "entrada": null,
-  "resultado": null,
+  "preco_sinal": 1.3189479112625122,
+  "entrada": 1.318913221359253,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -21063,7 +21030,18 @@
   "entrada_t": "2026-11-16 10:05",
   "exp_t": "2026-11-16 10:10",
   "dir": "PUT",
-  "preco_sinal": 159.56700134277344,
+  "preco_sinal": 159.5449981689453,
+  "entrada": 159.53500366210938,
+  "resultado": "GANHOU",
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-16 10:05",
+  "entrada_t": "2026-11-16 10:10",
+  "exp_t": "2026-11-16 10:15",
+  "dir": "PUT",
+  "preco_sinal": 159.56500244140625,
   "entrada": null,
   "resultado": null,
   "enviado": false
