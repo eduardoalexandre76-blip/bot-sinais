@@ -20899,8 +20899,8 @@
   "exp_t": "2026-11-16 08:00",
   "dir": "CALL",
   "preco_sinal": 159.36500549316406,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.447998046875,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
