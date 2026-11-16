@@ -21328,8 +21328,8 @@
   "exp_t": "2026-11-16 18:05",
   "dir": "CALL",
   "preco_sinal": 1.100594401359558,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.1008366346359253,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -21339,8 +21339,8 @@
   "exp_t": "2026-11-16 18:10",
   "dir": "CALL",
   "preco_sinal": 159.49899291992188,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.48199462890625,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -21350,8 +21350,8 @@
   "exp_t": "2026-11-16 18:10",
   "dir": "CALL",
   "preco_sinal": 159.49899291992188,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.48199462890625,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -21361,8 +21361,8 @@
   "exp_t": "2026-11-16 18:15",
   "dir": "CALL",
   "preco_sinal": 159.48199462890625,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.5290069580078,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -21370,6 +21370,17 @@
   "vela": "2026-11-16 18:05",
   "entrada_t": "2026-11-16 18:10",
   "exp_t": "2026-11-16 18:15",
+  "dir": "CALL",
+  "preco_sinal": 0.6745362877845764,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-16 18:10",
+  "entrada_t": "2026-11-16 18:15",
+  "exp_t": "2026-11-16 18:20",
   "dir": "CALL",
   "preco_sinal": 0.6745362877845764,
   "entrada": null,
