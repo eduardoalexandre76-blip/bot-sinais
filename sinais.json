@@ -18986,7 +18986,7 @@
   "dir": "CALL",
   "preco_sinal": 1.1052166223526,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
@@ -18997,7 +18997,7 @@
   "dir": "CALL",
   "preco_sinal": 1.3230137825012207,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
