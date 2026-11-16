@@ -21729,14 +21729,14 @@
   "enviado": false
  },
  {
-  "par": "USDJPY=X",
-  "vela": "2026-11-16 22:35",
-  "entrada_t": "2026-11-16 22:40",
-  "exp_t": "2026-11-16 22:45",
-  "dir": "CALL",
-  "preco_sinal": 159.3820037841797,
-  "entrada": null,
-  "resultado": null,
+  "par": "GBPUSD=X",
+  "vela": "2026-11-16 22:30",
+  "entrada_t": "2026-11-16 22:35",
+  "exp_t": "2026-11-16 22:40",
+  "dir": "PUT",
+  "preco_sinal": 1.3191568851470947,
+  "entrada": 1.319000244140625,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
