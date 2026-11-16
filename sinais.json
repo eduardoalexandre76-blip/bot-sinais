@@ -20943,8 +20943,8 @@
   "exp_t": "2026-11-16 09:05",
   "dir": "PUT",
   "preco_sinal": 1.3218246698379517,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.32185959815979,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -20954,8 +20954,8 @@
   "exp_t": "2026-11-16 09:10",
   "dir": "PUT",
   "preco_sinal": 1.1029006242752075,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.103265643119812,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -20965,8 +20965,8 @@
   "exp_t": "2026-11-16 09:10",
   "dir": "PUT",
   "preco_sinal": 1.32185959815979,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3219819068908691,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -20976,8 +20976,8 @@
   "exp_t": "2026-11-16 09:10",
   "dir": "PUT",
   "preco_sinal": 0.6764526963233948,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.6764984726905823,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
