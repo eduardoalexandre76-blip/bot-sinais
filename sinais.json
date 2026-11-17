@@ -22417,8 +22417,8 @@
   "exp_t": "2026-11-17 07:30",
   "dir": "CALL",
   "preco_sinal": 1.1007153987884521,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.101078987121582,
+  "resultado": "PERDEU",
   "enviado": false
  }
 ]
