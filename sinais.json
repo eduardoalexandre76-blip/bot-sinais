@@ -23104,23 +23104,56 @@
   "enviado": false
  },
  {
+  "par": "EURUSD=X",
+  "vela": "2026-11-17 20:20",
+  "entrada_t": "2026-11-17 20:25",
+  "exp_t": "2026-11-17 20:30",
+  "dir": "CALL",
+  "preco_sinal": 1.1007153987884521,
+  "entrada": 1.1009578704833984,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
   "par": "GBPUSD=X",
   "vela": "2026-11-17 20:25",
   "entrada_t": "2026-11-17 20:30",
   "exp_t": "2026-11-17 20:35",
   "dir": "CALL",
-  "preco_sinal": 1.321143627166748,
+  "preco_sinal": 1.3210563659667969,
+  "entrada": 1.321143627166748,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-17 20:20",
+  "entrada_t": "2026-11-17 20:25",
+  "exp_t": "2026-11-17 20:30",
+  "dir": "CALL",
+  "preco_sinal": 0.6734006404876709,
+  "entrada": 0.6736274361610413,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-17 20:30",
+  "entrada_t": "2026-11-17 20:35",
+  "exp_t": "2026-11-17 20:40",
+  "dir": "CALL",
+  "preco_sinal": 1.321126103401184,
   "entrada": null,
   "resultado": null,
   "enviado": false
  },
  {
   "par": "USDJPY=X",
-  "vela": "2026-11-17 20:25",
-  "entrada_t": "2026-11-17 20:30",
-  "exp_t": "2026-11-17 20:35",
+  "vela": "2026-11-17 20:30",
+  "entrada_t": "2026-11-17 20:35",
+  "exp_t": "2026-11-17 20:40",
   "dir": "PUT",
-  "preco_sinal": 159.36399841308594,
+  "preco_sinal": 159.36599731445312,
   "entrada": null,
   "resultado": null,
   "enviado": false
