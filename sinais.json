@@ -21845,8 +21845,8 @@
   "exp_t": "2026-11-17 00:40",
   "dir": "CALL",
   "preco_sinal": 1.31816565990448,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3182003498077393,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -21856,8 +21856,8 @@
   "exp_t": "2026-11-17 00:40",
   "dir": "CALL",
   "preco_sinal": 0.6733099818229675,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.6732646822929382,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
