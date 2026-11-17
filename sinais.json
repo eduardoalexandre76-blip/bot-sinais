@@ -23264,8 +23264,8 @@
   "exp_t": "2026-11-17 23:30",
   "dir": "CALL",
   "preco_sinal": 1.0997470617294312,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0997470617294312,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -23275,6 +23275,17 @@
   "exp_t": "2026-11-17 23:30",
   "dir": "PUT",
   "preco_sinal": 159.48699951171875,
+  "entrada": 159.47500610351562,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-17 23:30",
+  "entrada_t": "2026-11-17 23:35",
+  "exp_t": "2026-11-17 23:40",
+  "dir": "PUT",
+  "preco_sinal": 0.6742633581161499,
   "entrada": null,
   "resultado": null,
   "enviado": false
