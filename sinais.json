@@ -23223,5 +23223,16 @@
   "entrada": 1.100473165512085,
   "resultado": "INCERTO",
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-17 22:20",
+  "entrada_t": "2026-11-17 22:25",
+  "exp_t": "2026-11-17 22:30",
+  "dir": "CALL",
+  "preco_sinal": 1.1001100540161133,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
