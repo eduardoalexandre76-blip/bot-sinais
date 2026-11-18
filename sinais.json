@@ -23649,6 +23649,28 @@
   "exp_t": "2026-11-18 05:00",
   "dir": "CALL",
   "preco_sinal": 159.2449951171875,
+  "entrada": 159.1959991455078,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-18 05:00",
+  "entrada_t": "2026-11-18 05:05",
+  "exp_t": "2026-11-18 05:10",
+  "dir": "CALL",
+  "preco_sinal": 159.15699768066406,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-18 05:00",
+  "entrada_t": "2026-11-18 05:05",
+  "exp_t": "2026-11-18 05:10",
+  "dir": "CALL",
+  "preco_sinal": 0.6721785664558411,
   "entrada": null,
   "resultado": null,
   "enviado": false
