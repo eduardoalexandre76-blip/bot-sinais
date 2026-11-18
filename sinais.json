@@ -24312,5 +24312,16 @@
   "entrada": 1.3169851303100586,
   "resultado": "GANHOU",
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-18 13:40",
+  "entrada_t": "2026-11-18 13:45",
+  "exp_t": "2026-11-18 13:50",
+  "dir": "PUT",
+  "preco_sinal": 1.0975743532180786,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
