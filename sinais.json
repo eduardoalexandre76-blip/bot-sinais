@@ -23861,5 +23861,27 @@
   "entrada": 1.0975743532180786,
   "resultado": "GANHOU",
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-18 08:20",
+  "entrada_t": "2026-11-18 08:25",
+  "exp_t": "2026-11-18 08:30",
+  "dir": "CALL",
+  "preco_sinal": 1.0968520641326904,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-18 08:20",
+  "entrada_t": "2026-11-18 08:25",
+  "exp_t": "2026-11-18 08:30",
+  "dir": "CALL",
+  "preco_sinal": 1.3162224292755127,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
