@@ -25877,11 +25877,11 @@
  },
  {
   "par": "USDCAD=X",
-  "vela": "2026-11-19 08:45",
-  "entrada_t": "2026-11-19 08:50",
-  "exp_t": "2026-11-19 08:55",
+  "vela": "2026-11-19 08:50",
+  "entrada_t": "2026-11-19 08:55",
+  "exp_t": "2026-11-19 09:00",
   "dir": "CALL",
-  "preco_sinal": 1.4319499731063843,
+  "preco_sinal": 1.4318599700927734,
   "entrada": null,
   "resultado": null,
   "enviado": false
