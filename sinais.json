@@ -25904,8 +25904,8 @@
   "exp_t": "2026-11-19 09:20",
   "dir": "PUT",
   "preco_sinal": 1.0997470617294312,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0999890565872192,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -25915,8 +25915,8 @@
   "exp_t": "2026-11-19 09:20",
   "dir": "PUT",
   "preco_sinal": 1.3159799575805664,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3156510591506958,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -25926,8 +25926,8 @@
   "exp_t": "2026-11-19 09:20",
   "dir": "PUT",
   "preco_sinal": 159.82400512695312,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.83299255371094,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -25937,8 +25937,8 @@
   "exp_t": "2026-11-19 09:20",
   "dir": "PUT",
   "preco_sinal": 0.6713212132453918,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.6712310314178467,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -25948,6 +25948,50 @@
   "exp_t": "2026-11-19 09:20",
   "dir": "CALL",
   "preco_sinal": 1.4311399459838867,
+  "entrada": 1.430899977684021,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-19 09:20",
+  "entrada_t": "2026-11-19 09:25",
+  "exp_t": "2026-11-19 09:30",
+  "dir": "PUT",
+  "preco_sinal": 1.1003520488739014,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-19 09:20",
+  "entrada_t": "2026-11-19 09:25",
+  "exp_t": "2026-11-19 09:30",
+  "dir": "PUT",
+  "preco_sinal": 159.8260040283203,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-19 09:20",
+  "entrada_t": "2026-11-19 09:25",
+  "exp_t": "2026-11-19 09:30",
+  "dir": "PUT",
+  "preco_sinal": 0.6713212132453918,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-19 09:20",
+  "entrada_t": "2026-11-19 09:25",
+  "exp_t": "2026-11-19 09:30",
+  "dir": "CALL",
+  "preco_sinal": 1.430799961090088,
   "entrada": null,
   "resultado": null,
   "enviado": false
