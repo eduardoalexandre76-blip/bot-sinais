@@ -24969,8 +24969,8 @@
   "exp_t": "2026-11-19 01:00",
   "dir": "PUT",
   "preco_sinal": 1.0978153944015503,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0981770753860474,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -24980,6 +24980,39 @@
   "exp_t": "2026-11-19 01:00",
   "dir": "PUT",
   "preco_sinal": 1.3150107860565186,
+  "entrada": 1.3151664733886719,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-19 01:00",
+  "entrada_t": "2026-11-19 01:05",
+  "exp_t": "2026-11-19 01:10",
+  "dir": "PUT",
+  "preco_sinal": 1.098056435585022,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-19 01:00",
+  "entrada_t": "2026-11-19 01:05",
+  "exp_t": "2026-11-19 01:10",
+  "dir": "PUT",
+  "preco_sinal": 1.3153048753738403,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-19 01:00",
+  "entrada_t": "2026-11-19 01:05",
+  "exp_t": "2026-11-19 01:10",
+  "dir": "CALL",
+  "preco_sinal": 0.6694336533546448,
   "entrada": null,
   "resultado": null,
   "enviado": false
