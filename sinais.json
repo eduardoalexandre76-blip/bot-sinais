@@ -26267,8 +26267,8 @@
   "exp_t": "2026-11-19 12:30",
   "dir": "CALL",
   "preco_sinal": 1.0991426706314087,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0991426706314087,
+  "resultado": "PERDEU",
   "enviado": false
  }
 ]
