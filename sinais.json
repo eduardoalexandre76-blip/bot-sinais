@@ -28423,8 +28423,8 @@
   "exp_t": "2026-11-20 16:50",
   "dir": "CALL",
   "preco_sinal": 1.4316400289535522,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.4315799474716187,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
