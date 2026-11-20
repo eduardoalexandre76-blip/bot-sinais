@@ -28654,6 +28654,17 @@
   "exp_t": "2026-11-20 20:10",
   "dir": "CALL",
   "preco_sinal": 158.46600341796875,
+  "entrada": 158.46200561523438,
+  "resultado": "GANHOU",
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-20 20:10",
+  "entrada_t": "2026-11-20 20:15",
+  "exp_t": "2026-11-20 20:20",
+  "dir": "CALL",
+  "preco_sinal": 1.308455228805542,
   "entrada": null,
   "resultado": null,
   "enviado": false
