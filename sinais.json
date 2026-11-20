@@ -27433,8 +27433,8 @@
   "exp_t": "2026-11-20 04:30",
   "dir": "CALL",
   "preco_sinal": 1.4325000047683716,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.4325599670410156,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
