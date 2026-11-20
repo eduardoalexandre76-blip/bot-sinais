@@ -27491,5 +27491,27 @@
   "entrada": 1.3102554082870483,
   "resultado": "GANHOU",
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-20 06:10",
+  "entrada_t": "2026-11-20 06:15",
+  "exp_t": "2026-11-20 06:20",
+  "dir": "PUT",
+  "preco_sinal": 1.098659634590149,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-20 06:10",
+  "entrada_t": "2026-11-20 06:15",
+  "exp_t": "2026-11-20 06:20",
+  "dir": "PUT",
+  "preco_sinal": 0.6676458716392517,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
