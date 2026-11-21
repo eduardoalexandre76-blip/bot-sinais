@@ -21780,7 +21780,7 @@
   "dir": "PUT",
   "preco_sinal": 159.47900390625,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
@@ -21791,7 +21791,7 @@
   "dir": "PUT",
   "preco_sinal": 159.53900146484375,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
