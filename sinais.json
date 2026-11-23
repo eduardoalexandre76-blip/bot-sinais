@@ -29430,11 +29430,11 @@
  },
  {
   "par": "EURUSD=X",
-  "vela": "2026-11-23 08:20",
-  "entrada_t": "2026-11-23 08:25",
-  "exp_t": "2026-11-23 08:30",
+  "vela": "2026-11-23 08:25",
+  "entrada_t": "2026-11-23 08:30",
+  "exp_t": "2026-11-23 08:35",
   "dir": "CALL",
-  "preco_sinal": 1.0993843078613281,
+  "preco_sinal": 1.0992635488510132,
   "entrada": null,
   "resultado": null,
   "enviado": false
