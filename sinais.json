@@ -30898,8 +30898,8 @@
   "exp_t": "2026-11-23 23:30",
   "dir": "PUT",
   "preco_sinal": 159.06100463867188,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.02499389648438,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -30909,6 +30909,17 @@
   "exp_t": "2026-11-23 23:30",
   "dir": "PUT",
   "preco_sinal": 1.4368300437927246,
+  "entrada": 1.4368699789047241,
+  "resultado": "GANHOU",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-23 23:30",
+  "entrada_t": "2026-11-23 23:35",
+  "exp_t": "2026-11-23 23:40",
+  "dir": "PUT",
+  "preco_sinal": 1.0909883975982666,
   "entrada": null,
   "resultado": null,
   "enviado": false
