@@ -28831,7 +28831,7 @@
   "dir": "PUT",
   "preco_sinal": 1.0979359149932861,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
@@ -28842,7 +28842,7 @@
   "dir": "PUT",
   "preco_sinal": 1.3101180791854858,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
@@ -28853,7 +28853,7 @@
   "dir": "PUT",
   "preco_sinal": 158.9810028076172,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  },
  {
@@ -28864,7 +28864,7 @@
   "dir": "PUT",
   "preco_sinal": 0.6644076704978943,
   "entrada": null,
-  "resultado": null,
+  "resultado": "SEM_DADOS",
   "enviado": false
  }
 ]
