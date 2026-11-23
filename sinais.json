@@ -29493,5 +29493,27 @@
   "entrada": 159.15699768066406,
   "resultado": "INCERTO",
   "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-23 09:10",
+  "entrada_t": "2026-11-23 09:15",
+  "exp_t": "2026-11-23 09:20",
+  "dir": "CALL",
+  "preco_sinal": 1.098659634590149,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-23 09:10",
+  "entrada_t": "2026-11-23 09:15",
+  "exp_t": "2026-11-23 09:20",
+  "dir": "PUT",
+  "preco_sinal": 1.4323999881744385,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
