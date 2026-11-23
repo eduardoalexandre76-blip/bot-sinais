@@ -30288,11 +30288,11 @@
  },
  {
   "par": "GBPUSD=X",
-  "vela": "2026-11-23 14:50",
-  "entrada_t": "2026-11-23 14:55",
-  "exp_t": "2026-11-23 15:00",
+  "vela": "2026-11-23 14:55",
+  "entrada_t": "2026-11-23 15:00",
+  "exp_t": "2026-11-23 15:05",
   "dir": "CALL",
-  "preco_sinal": 1.3058239221572876,
+  "preco_sinal": 1.3050230741500854,
   "entrada": null,
   "resultado": null,
   "enviado": false
