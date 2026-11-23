@@ -30870,12 +30870,12 @@
   "enviado": false
  },
  {
-  "par": "GBPUSD=X",
-  "vela": "2026-11-23 22:55",
-  "entrada_t": "2026-11-23 23:00",
-  "exp_t": "2026-11-23 23:05",
+  "par": "AUDUSD=X",
+  "vela": "2026-11-23 23:00",
+  "entrada_t": "2026-11-23 23:05",
+  "exp_t": "2026-11-23 23:10",
   "dir": "PUT",
-  "preco_sinal": 1.3041210174560547,
+  "preco_sinal": 0.6635700464248657,
   "entrada": null,
   "resultado": null,
   "enviado": false
