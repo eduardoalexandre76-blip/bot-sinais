@@ -31451,5 +31451,16 @@
   "entrada": 1.0907504558563232,
   "resultado": "INCERTO",
   "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-24 07:50",
+  "entrada_t": "2026-11-24 07:55",
+  "exp_t": "2026-11-24 08:00",
+  "dir": "PUT",
+  "preco_sinal": 159.3769989013672,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
  }
 ]
