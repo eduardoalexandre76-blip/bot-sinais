@@ -32641,12 +32641,12 @@
   "enviado": false
  },
  {
-  "par": "EURUSD=X",
-  "vela": "2026-11-24 22:10",
-  "entrada_t": "2026-11-24 22:15",
-  "exp_t": "2026-11-24 22:20",
+  "par": "USDJPY=X",
+  "vela": "2026-11-24 22:15",
+  "entrada_t": "2026-11-24 22:20",
+  "exp_t": "2026-11-24 22:25",
   "dir": "CALL",
-  "preco_sinal": 1.096611499786377,
+  "preco_sinal": 159.18699645996094,
   "entrada": null,
   "resultado": null,
   "enviado": false
