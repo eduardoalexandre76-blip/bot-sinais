@@ -31448,8 +31448,8 @@
   "exp_t": "2026-11-24 07:20",
   "dir": "CALL",
   "preco_sinal": 1.090274691581726,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0907504558563232,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
