@@ -31250,6 +31250,28 @@
   "exp_t": "2026-11-24 05:30",
   "dir": "PUT",
   "preco_sinal": 159.09100341796875,
+  "entrada": 159.07400512695312,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-24 05:30",
+  "entrada_t": "2026-11-24 05:35",
+  "exp_t": "2026-11-24 05:40",
+  "dir": "PUT",
+  "preco_sinal": 1.30451238155365,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-24 05:30",
+  "entrada_t": "2026-11-24 05:35",
+  "exp_t": "2026-11-24 05:40",
+  "dir": "PUT",
+  "preco_sinal": 159.08700561523438,
   "entrada": null,
   "resultado": null,
   "enviado": false
