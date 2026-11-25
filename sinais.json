@@ -32834,8 +32834,8 @@
   "exp_t": "2026-11-25 00:55",
   "dir": "CALL",
   "preco_sinal": 1.3108049631118774,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3109080791473389,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -32845,6 +32845,28 @@
   "exp_t": "2026-11-25 01:00",
   "dir": "CALL",
   "preco_sinal": 1.3109080791473389,
+  "entrada": 1.3111830949783325,
+  "resultado": "GANHOU",
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-25 01:00",
+  "entrada_t": "2026-11-25 01:05",
+  "exp_t": "2026-11-25 01:10",
+  "dir": "PUT",
+  "preco_sinal": 0.6655131578445435,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-25 01:00",
+  "entrada_t": "2026-11-25 01:05",
+  "exp_t": "2026-11-25 01:10",
+  "dir": "CALL",
+  "preco_sinal": 1.426360011100769,
   "entrada": null,
   "resultado": null,
   "enviado": false
