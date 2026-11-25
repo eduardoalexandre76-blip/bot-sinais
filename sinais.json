@@ -33725,8 +33725,8 @@
   "exp_t": "2026-11-25 12:00",
   "dir": "CALL",
   "preco_sinal": 1.3059945106506348,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3059945106506348,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -33736,6 +33736,17 @@
   "exp_t": "2026-11-25 12:00",
   "dir": "CALL",
   "preco_sinal": 1.427299976348877,
+  "entrada": 1.427590012550354,
+  "resultado": "PERDEU",
+  "enviado": false
+ },
+ {
+  "par": "USDCAD=X",
+  "vela": "2026-11-25 12:00",
+  "entrada_t": "2026-11-25 12:05",
+  "exp_t": "2026-11-25 12:10",
+  "dir": "CALL",
+  "preco_sinal": 1.427049994468689,
   "entrada": null,
   "resultado": null,
   "enviado": false
