@@ -33648,8 +33648,8 @@
   "exp_t": "2026-11-25 09:20",
   "dir": "CALL",
   "preco_sinal": 1.4275000095367432,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.4277100563049316,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
