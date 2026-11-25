@@ -33527,8 +33527,8 @@
   "exp_t": "2026-11-25 07:40",
   "dir": "CALL",
   "preco_sinal": 159.11500549316406,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.07200622558594,
+  "resultado": "PERDEU",
   "enviado": false
  },
  {
@@ -33538,8 +33538,8 @@
   "exp_t": "2026-11-25 07:40",
   "dir": "CALL",
   "preco_sinal": 0.656555712223053,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 0.6569870710372925,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -33549,6 +33549,17 @@
   "exp_t": "2026-11-25 07:40",
   "dir": "PUT",
   "preco_sinal": 1.4288899898529053,
+  "entrada": 1.428760051727295,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "USDJPY=X",
+  "vela": "2026-11-25 07:40",
+  "entrada_t": "2026-11-25 07:45",
+  "exp_t": "2026-11-25 07:50",
+  "dir": "CALL",
+  "preco_sinal": 159.01199340820312,
   "entrada": null,
   "resultado": null,
   "enviado": false
