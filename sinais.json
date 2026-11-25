@@ -32828,12 +32828,12 @@
   "enviado": false
  },
  {
-  "par": "USDCAD=X",
-  "vela": "2026-11-25 00:40",
-  "entrada_t": "2026-11-25 00:45",
-  "exp_t": "2026-11-25 00:50",
+  "par": "GBPUSD=X",
+  "vela": "2026-11-25 00:45",
+  "entrada_t": "2026-11-25 00:50",
+  "exp_t": "2026-11-25 00:55",
   "dir": "CALL",
-  "preco_sinal": 1.4263099431991577,
+  "preco_sinal": 1.3108049631118774,
   "entrada": null,
   "resultado": null,
   "enviado": false
