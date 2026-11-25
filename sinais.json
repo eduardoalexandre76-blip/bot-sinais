@@ -33010,8 +33010,8 @@
   "exp_t": "2026-11-25 03:10",
   "dir": "CALL",
   "preco_sinal": 1.3102554082870483,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.309963583946228,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -33021,8 +33021,8 @@
   "exp_t": "2026-11-25 03:10",
   "dir": "CALL",
   "preco_sinal": 159.1230010986328,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.13299560546875,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -33032,6 +33032,28 @@
   "exp_t": "2026-11-25 03:10",
   "dir": "CALL",
   "preco_sinal": 0.6614631414413452,
+  "entrada": 0.6613757014274597,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "GBPUSD=X",
+  "vela": "2026-11-25 03:10",
+  "entrada_t": "2026-11-25 03:15",
+  "exp_t": "2026-11-25 03:20",
+  "dir": "CALL",
+  "preco_sinal": 1.3100494146347046,
+  "entrada": null,
+  "resultado": null,
+  "enviado": false
+ },
+ {
+  "par": "AUDUSD=X",
+  "vela": "2026-11-25 03:10",
+  "entrada_t": "2026-11-25 03:15",
+  "exp_t": "2026-11-25 03:20",
+  "dir": "CALL",
+  "preco_sinal": 0.6614194512367249,
   "entrada": null,
   "resultado": null,
   "enviado": false
