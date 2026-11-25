@@ -34391,11 +34391,11 @@
  },
  {
   "par": "USDJPY=X",
-  "vela": "2026-11-25 21:55",
-  "entrada_t": "2026-11-25 22:00",
-  "exp_t": "2026-11-25 22:05",
+  "vela": "2026-11-25 22:00",
+  "entrada_t": "2026-11-25 22:05",
+  "exp_t": "2026-11-25 22:10",
   "dir": "CALL",
-  "preco_sinal": 159.1790008544922,
+  "preco_sinal": 159.1490020751953,
   "entrada": null,
   "resultado": null,
   "enviado": false
