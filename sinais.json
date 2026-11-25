@@ -33560,8 +33560,8 @@
   "exp_t": "2026-11-25 07:50",
   "dir": "CALL",
   "preco_sinal": 159.01199340820312,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.08399963378906,
+  "resultado": "PERDEU",
   "enviado": false
  }
 ]
