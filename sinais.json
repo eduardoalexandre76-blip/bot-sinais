@@ -35617,8 +35617,8 @@
   "exp_t": "2026-11-26 13:40",
   "dir": "PUT",
   "preco_sinal": 1.098056435585022,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0982975959777832,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -35628,6 +35628,17 @@
   "exp_t": "2026-11-26 13:40",
   "dir": "CALL",
   "preco_sinal": 159.22799682617188,
+  "entrada": 159.23199462890625,
+  "resultado": "INCERTO",
+  "enviado": false
+ },
+ {
+  "par": "EURUSD=X",
+  "vela": "2026-11-26 13:40",
+  "entrada_t": "2026-11-26 13:45",
+  "exp_t": "2026-11-26 13:50",
+  "dir": "PUT",
+  "preco_sinal": 1.0981770753860474,
   "entrada": null,
   "resultado": null,
   "enviado": false
