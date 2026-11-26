@@ -34891,8 +34891,8 @@
   "exp_t": "2026-11-26 03:55",
   "dir": "CALL",
   "preco_sinal": 1.0961307287216187,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0961307287216187,
+  "resultado": "GANHOU",
   "enviado": false
  },
  {
@@ -34902,8 +34902,8 @@
   "exp_t": "2026-11-26 03:55",
   "dir": "CALL",
   "preco_sinal": 1.3098092079162598,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.3098777532577515,
+  "resultado": "INCERTO",
   "enviado": false
  },
  {
@@ -34913,8 +34913,8 @@
   "exp_t": "2026-11-26 04:00",
   "dir": "CALL",
   "preco_sinal": 1.0961307287216187,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.0962508916854858,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
