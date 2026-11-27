@@ -37168,8 +37168,8 @@
   "exp_t": "2026-11-27 07:30",
   "dir": "CALL",
   "preco_sinal": 1.4226399660110474,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 1.423050045967102,
+  "resultado": "INCERTO",
   "enviado": false
  }
 ]
