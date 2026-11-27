@@ -37872,8 +37872,8 @@
   "exp_t": "2026-11-27 19:40",
   "dir": "PUT",
   "preco_sinal": 159.56199645996094,
-  "entrada": null,
-  "resultado": null,
+  "entrada": 159.55799865722656,
+  "resultado": "GANHOU",
   "enviado": false
  }
 ]
